@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Using a REST API, and a given emp_ID, return info about their TODO list.
+"""
 import requests
 import sys
 
