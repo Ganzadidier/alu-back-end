@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-"""
-Using a REST API, and a given emp_ID, return info about their TODO list.
-"""
+"""Using a REST API, and a given emp_ID, return info about their TODO list."""
+
 import requests
 import sys
 
 if __name__ == "__main__":
-    """
-        request user info
-    """
+    """request user info"""
+
 	# The user ID is passed as a command-line argument
 	user_id = sys.argv[1]
 
